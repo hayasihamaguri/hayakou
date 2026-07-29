@@ -89,6 +89,7 @@
             background-color: var(--accent-color);
             margin: 15px auto 0;
         }
+        
         .prologue {
             background-color: #fafafa;
             padding: 40px 50px;
@@ -132,6 +133,27 @@
         li:last-child {
             border-bottom: none;
         }
+
+        .x-btn {
+            display: inline-block;
+            width: 70px;         
+            height: 50px;        
+            line-height: 50px;     /* heightと同じ数値を指定 */
+            text-align: center;
+            background-color: #ffffff;
+            color: #333333;
+            text-decoration: none;
+            border: 1px solid #333333; 
+            font-size: 150 ;     /* 文字も少し小さくしてバランスをとる */
+            transition: all 0.3s ease;
+            margin: 10px;          /* 周りの余白も少し詰める */
+            padding: 0;
+        }
+        /* マウスを乗せた時の動き */
+        .x-btn:hover {
+            background-color: #333333;
+            color: #ffffff;
+        }
         footer {
             text-align: center;
             padding: 40px;
@@ -154,6 +176,7 @@
         <a href="#story">STORY</a>
         <a href="#character">CHARACTER</a>
         <a href="#system">SYSTEM</a>
+        <a href="group">GROUP</a>
     </nav>
 
     <main>
@@ -191,14 +214,30 @@
                 <li><strong>システム:</strong> 探索系RPG。びっくり要素も謎解きも特にない。</li>
                 <li><strong>所要時間:</strong> 10分程度。全てのイベントを拾ったら15分くらいかかる。<br>　　無駄にイベント数が多い。全部見つけても特に報酬はない</li>
                 <li><strong>RTA:</strong> 私(はまぐり)は1分32秒。はやしらいす(製作メンバーの方)は1分24秒。<br>　　これより早い人が居たら送ってください。ここに掲載させて頂きます。</li>
-                 <li><strong>RTA時間掲載条件:</strong>おまけ部屋は見ます。日記は全て読んでください。アイテムは取っても取らなくてもいいです。クリアすればいいです。一人何回でも参加可能です。</li>
+                <li><strong>RTA時間掲載条件:</strong>おまけ部屋は見ます。日記は全て読んでください。アイテムは取っても取らなくてもいいです。クリアすればいいです。一人何回でも参加可能です。</li>
             </ul>
+        </section>
+        <section id="group">
+            <h2>GROUP</h2>
+            <p style="text-align: center;">作者ページ</p>
+            <p style="text-align: center;">詳しくは下記のホームページリンクへお願いいたします。</p>
+            <div style="text-align: center;">
+                <a href="https://hayasihamaguri.github.io/hayasihamaguri/"  class="x-btn" target="_blank"> HP</a>
+            </div>
+            <ul style="list-style: none; padding-left: 0;">
+            <li><strong>著作権関連:</strong> ”はやしらいすはまぐりを添えて”に所属</li>
+            <li><strong>実況関連:</strong> 歓迎します。是非お願い致します。よっぽど酷い投稿以外は喜びます。また、リンクを宣伝して頂ければこちらのyoutube等の公式アカウントでフォローさせて頂きます。</li>
+            <li><strong>実況について:</strong> リンクを宣伝させて頂く際、追記などをして頂ければ、このWebサイトにリンクを載せて宣伝させて頂きます。</li>
+            </ul>
+
+
+
         </section>
     </main>
 
     <footer>
         <p>&copy; 2026 Hayashiraice Project.</p>
-        <p>最終更新：2026年7月28日</p>
+        <p>最終更新：2026年7月29日</p>
     </footer>
 
 </body>
