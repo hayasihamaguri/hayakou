@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>はやしらいすの幸福追求記</title>
+    <style>
+        :root {
+            --primary-color: #11171e; 
+            --accent-color: #f9f9f8;  
+            --bg-color: #ffffff;
+            --text-color: #333333;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            letter-spacing: 0.05em;
+        }
+        header {
+            padding: 80px 20px 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.2em;
+            font-weight: 300;
+            font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+            letter-spacing: 0.15em;
+            color: var(--primary-color);
+            margin: 0;
+        }
+        .subtitle {
+            font-size: 0.85em;
+            color: #888;
+            margin-top: 15px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 0 0 50px 0;
+            padding: 20px 0;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.85em;
+            letter-spacing: 0.15em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: var(--accent-color);
+        }
+        main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 20px 80px;
+        }
+        section {
+            margin-bottom: 80px;
+        }
+        h2 {
+            font-size: 1.2em;
+            font-weight: 400;
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 40px;
+            letter-spacing: 0.1em;
+        }
+        h2 .highlight {
+            color: #715b1f; 
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 1px;
+            background-color: var(--accent-color);
+            margin: 15px auto 0;
+        }
+        .prologue {
+            background-color: #fafafa;
+            padding: 40px 50px;
+            border-left: 3px solid var(--accent-color);
+            font-family: 'Yu Mincho', 'Shippori Mincho', 'Hiragino Mincho ProN', serif;
+            font-size: 1.05em;
+            color: #444;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+        }
+        .prologue p {
+            margin-bottom: 1.8em;
+        }
+        .prologue p:last-child {
+            margin-bottom: 0;
+        }
+        .character-box {
+            border: 1px solid #eaeaea;
+            padding: 30px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .character-box:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+        }
+        .char-name {
+            font-size: 1.1em;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 15px 0;
+            border-bottom: 1px solid #f5f5f5;
+            font-size: 0.95em;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.75em;
+            color: #bbb;
+            border-top: 1px solid #f0f0f0;
+            letter-spacing: 0.1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>はやしらいすの幸福追求記</h1>
+        <div class="subtitle">はやしらいすはまぐりを添えて
+        </div>
+    </header>
+
+    <nav>
+        <a href="#story">STORY</a>
+        <a href="#character">CHARACTER</a>
+        <a href="#system">SYSTEM</a>
+    </nav>
+
+    <main>
+        <section id="story">
+            <h2>STORY</h2>
+            <div class="prologue">
+                <p>林羅李素(通称:はやし)という少女がアルバイト代目当てで洋館を探索するゲーム。<br>壺を持ち歩いたり水晶玉とお喋りしたり、ヤバそうな黒い球体から逃げたりもする。</p><p>幸福を追求しているのかは分からない。</p>
+            </div>
+        </section>
+
+        <section id="character">
+            <h2>CHARACTER</h2>
+            <div class="character-box">
+                <h2><span class="highlight">林羅李素</span></h2>
+                <p>本作の主人公（15歳）。<br>種族は人間のはずだが背中から羽が生えてきている。目線がチャームポイント。<br>服装はメイド服(コスプレ用)で髪型は片テール。髪色は地毛。<br>お嬢様言葉を用いるが、口が悪いというかなんというか。<br>キャラ設定と口調と服装は全てはやしらいす(友人の方)が決めたのであしからず。</p>
+            </div>
+            <div class="character-box">
+                <h2><span class="highlight">水晶玉＆だいざ</span></h2>
+                <p>ピンク色の水晶玉と紫色のだいざ。ちなみにそれぞれ別個体。よく喋る。<br>右手に装備できる</p>
+                <p>最初は影も形もなかったが、暇を持て余していた友人に立ち絵を依頼したらこうなった。なんだかんだ気に入っている。</p>
+            </div>
+            <div class="character-box">
+                <h2><span class="highlight">キヨさん</span></h2>
+                <p>今回の洋館の持ち主の遠い遠い親戚の人。どこのだれかは分からない。<br>はやしの近所に住んでいるらしい。<br>15歳の女の子にアルバイトをさせた人</p>
+            </div>
+            <div class="character-box">
+                <h2><span class="highlight">洋館の持ち主</span></h2>
+                <p>キヨさんの遠い遠い親戚の人。アマゾンの奥地在住<br>あの馬鹿でかい洋館に一人で住んでいた。</p>
+            </div>
+        </section>
+
+        <section id="system">
+            <h2>SYSTEM</h2>
+            <ul>
+                <li><strong>システム:</strong> 探索系RPG。びっくり要素も謎解きも特にない。</li>
+                <li><strong>所要時間:</strong> 10分程度。全てのイベントを拾ったら15分くらいかかる。<br>　　無駄にイベント数が多い。全部見つけても特に報酬はない</li>
+                <li><strong>RTA:</strong> 私(はまぐり)は1分32秒。はやしらいす(製作メンバーの方)は1分24秒。<br>　　これより早い人が居たら送ってください。ここに掲載させて頂きます。</li>
+                 <li><strong>RTA時間掲載条件:</strong>おまけ部屋は見ます。日記は全て読んでください。アイテムは取っても取らなくてもいいです。クリアすればいいです。一人何回でも参加可能です。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hayashiraice Project.</p>
+        <p>最終更新：2026年7月28日</p>
+    </footer>
+
+</body>
+</html>
